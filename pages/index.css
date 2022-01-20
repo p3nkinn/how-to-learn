@@ -1,10 +1,14 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
-@import url(../blocks/page/link.css);
 
-/* Logo_header */
+/* link */
+
+@import url(../blocks/link/link.css);
+
+/* Logo_header logo_footer */
 
 @import url(../blocks/logo/_place/logo_place_header.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
 
 /* rotation */
 
@@ -104,15 +108,15 @@
 
 /* feynman theme dark */
 
-@import url(../blocks/table/__cell/_theme/table__cell_theme-dark.css);
+@import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
 
 /* footer */
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
-@import url(../blocks/footer/__column_content_copyright/footer__column_content_copyright.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
-@import url(../blocks/footer/__column-links/footer-column-links.css);
+@import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
